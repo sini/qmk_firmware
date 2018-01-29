@@ -29,6 +29,8 @@ enum custom_keycodes {
 #define KC_RASE RAISE
 #define KC_RST RESET
 #define KC_BL_S BL_STEP
+#define KC_SANDS SFT_T(KC_SPC)
+#define KC_HYPS ALL_T(KC_SPC)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -42,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,LBRC,     RBRC, N  , M  ,COMM,DOT ,SLSH, ENT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                       LALT,LOWR, SPC ,        SPC ,RASE,LGUI
+                       LALT,LGUI, SPC ,        SPC ,LOWR,RASE
   //                  `----+----+----'        `----+----+----'
   ),
 
@@ -56,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,LBRC,     RBRC, K  , M  ,COMM,DOT ,SLSH, ENT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                       LALT,LOWR, SPC ,        SPC ,RASE,LGUI
+     LALT,LGUI,SANDS ,        HYPS,LOWR,RASE
   //                  `----+----+----'        `----+----+----'
   ),
 
@@ -70,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT,SCLN, Q  , J  , K  , X  ,LBRC,     RBRC, B  , M  , W  , V  , Z  , ENT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                       LALT,LOWR, SPC ,        SPC ,RASE,LGUI
+                       LALT,LGUI, SPC ,        SPC ,LOWR,RASE
   //                  `----+----+----'        `----+----+----'
   ),
 
@@ -98,7 +100,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
          ,    ,HOME,END ,DOWN,PGDN,    ,         ,    ,    ,    ,    ,    ,    ,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                           ,    ,    ,             ,    , 
+                           ,    ,    ,             ,    ,
   //                  `----+----+----'        `----+----+----'
   ),
 
@@ -112,7 +114,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      MUTE,MSTP,MPLY,VOLD,PGDN,MINS,    ,         ,PLUS,    ,    ,    ,    ,    ,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                           ,    ,    ,             ,    ,    
+                           ,    ,    ,             ,    ,
   //                  `----+----+----'        `----+----+----'
   ),
 
