@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,LBRC,     RBRC, N  , M  ,COMM,DOT ,SLSH, ENT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                       LALT,LGUI, SPC ,        SPC ,LOWR,RASE
+                      LALT,LGUI,SANDS ,        HYPS,LOWR,RASE
   //                  `----+----+----'        `----+----+----'
   ),
 
@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,LBRC,     RBRC, K  , M  ,COMM,DOT ,SLSH, ENT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-     LALT,LGUI,SANDS ,        HYPS,LOWR,RASE
+                      LALT,LGUI,SANDS ,        HYPS,LOWR,RASE
   //                  `----+----+----'        `----+----+----'
   ),
 
@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT,SCLN, Q  , J  , K  , X  ,LBRC,     RBRC, B  , M  , W  , V  , Z  , ENT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                       LALT,LGUI, SPC ,        SPC ,LOWR,RASE
+                      LALT,LGUI,SANDS ,        HYPS,LOWR,RASE
   //                  `----+----+----'        `----+----+----'
   ),
 
@@ -112,7 +112,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
          ,MPRV,MNXT,VOLU,    ,    ,                   ,MINS,UNDS, EQL,PLUS,    ,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
-     MUTE,MSTP,MPLY,VOLD,    ,    ,    ,         ,    ,    ,    ,    ,    ,    ,
+     MUTE,MSTP,MPLY,VOLD,    ,    ,    ,         ,    ,PLUS, EQL,    ,    ,    ,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
                            ,    ,    ,             ,    ,
   //                  `----+----+----'        `----+----+----'

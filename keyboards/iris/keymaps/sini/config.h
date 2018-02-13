@@ -40,7 +40,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define MOUSEKEY_DELAY             100
 #define MOUSEKEY_INTERVAL          20
-#define MOUSEKEY_MAX_SPEED         5
+#define MOUSEKEY_MAX_SPEED         3
 #define MOUSEKEY_TIME_TO_MAX       75
 #define MOUSEKEY_WHEEL_MAX_SPEED   5
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 100
