@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,LBRC,     RBRC, N  , M  ,COMM,DOT ,SLSH, ENT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                      LALT,LGUI,SANDS ,        HYPS,LOWR,RASE
+                        LALT,LGUI,SPC ,        HYPS,LOWR,RASE
   //                  `----+----+----'        `----+----+----'
   ),
 
@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      LSFT, Z  , X  , C  , V  , B  ,LBRC,     RBRC, K  , M  ,COMM,DOT ,SLSH, ENT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
-                      LALT,LGUI,SANDS ,        HYPS,LOWR,RASE
+                        LALT,LGUI,SPC ,        HYPS,LOWR,RASE
   //                  `----+----+----'        `----+----+----'
   ),
 
